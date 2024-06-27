@@ -37,7 +37,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtEmail.Text) && txtEmail.Text.Length > 0)
             {
                 textEmail.Visibility = Visibility.Collapsed;
-                errorEmail.Text = string.Empty; // Ukloni grešku
+                errorEmail.Text = string.Empty;
             }
             else
             {
@@ -54,7 +54,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtPassword.Password) && txtPassword.Password.Length > 0)
             {
                 textPassword.Visibility = Visibility.Collapsed;
-                errorPassword.Text = string.Empty; // Ukloni grešku
+                errorPassword.Text = string.Empty;
             }
             else
             {
@@ -64,10 +64,6 @@ namespace Putovanja.Pages
 
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if (e.ChangedButton == MouseButton.Left)
-            {
-                //this.DragMove();
-            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

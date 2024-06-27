@@ -23,10 +23,8 @@ namespace Putovanja.Pages
         {
             try
             {
-                // Dobavljanje podataka iz baze preko DatabaseContext-a
-                var putovanja = DatabaseContext.GetPutovanjaId(MainWindow.LoggedInUserId).ToList();  // Pretvoriti u listu da biste mogli koristiti Reverse()
+                var putovanja = DatabaseContext.GetPutovanjaId(MainWindow.LoggedInUserId).ToList();
 
-                // Obrnuti redosled elemenata
                 putovanja.Reverse();
 
                 foreach (var putovanje in putovanja)
@@ -36,7 +34,6 @@ namespace Putovanja.Pages
             }
             catch (Exception ex)
             {
-                // Prikazivanje poruke o grešci ako učitavanje podataka ne uspe
                 MessageBox.Show("Greška prilikom učitavanja podataka: " + ex.Message);
             }
         }
@@ -51,9 +48,13 @@ namespace Putovanja.Pages
                 {
                     try
                     {
-                        DatabaseContext.DeletePutovanje(putovanje.idPutovanja); // Brisanje putovanja iz baze
-                        Putovanja.Remove(putovanje); // Uklanjanje putovanja iz liste na UI
-                        MessageBox.Show("Putovanje je uspešno obrisano.");
+                        MessageBoxResult result = MessageBox.Show("Da li ste sigurni da želite da obrišete ovo putovanje?", "Potvrda brisanja", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                        if (result == MessageBoxResult.Yes)
+                        {
+                            DatabaseContext.DeletePutovanje(putovanje.idPutovanja);
+                            Putovanja.Remove(putovanje);
+                            MessageBox.Show("Putovanje je uspešno obrisano.");
+                        }
                     }
                     catch (Exception ex)
                     {
@@ -68,11 +69,9 @@ namespace Putovanja.Pages
             Button button = sender as Button;
             if (button != null)
             {
-                // Pretpostavka da je DataContext element tipa Putovanje koji ima ID
                 var putovanje = button.DataContext as Putovanje;
                 if (putovanje != null)
                 {
-                    // Prebacivanje na novu stranicu sa prosleđenim ID-em
                     TravelPage1 travelPage1 = new TravelPage1(putovanje.idPutovanja);
                     NavigationService.Navigate(travelPage1);
                 }

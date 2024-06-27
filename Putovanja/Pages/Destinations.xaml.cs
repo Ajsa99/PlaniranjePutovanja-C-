@@ -27,10 +27,8 @@ namespace Putovanja.Pages
         {
             try
             {
-                // Dobavljanje podataka iz baze preko DatabaseContext-a
-                var putovanja = DatabaseContext.GetPutovanja().ToList();  // Pretvoriti u listu da biste mogli koristiti Reverse()
+                var putovanja = DatabaseContext.GetPutovanja().ToList();
 
-                // Obrnuti redosled elemenata
                 putovanja.Reverse();
 
                 foreach (var putovanje in putovanja)
@@ -41,7 +39,6 @@ namespace Putovanja.Pages
             }
             catch (Exception ex)
             {
-                // Prikazivanje poruke o grešci ako učitavanje podataka ne uspe
                 MessageBox.Show("Greška prilikom učitavanja podataka: " + ex.Message);
             }
         }
@@ -51,11 +48,9 @@ namespace Putovanja.Pages
             Button button = sender as Button;
             if (button != null)
             {
-                // Pretpostavka da je DataContext element tipa Putovanje koji ima ID
                 var putovanje = button.DataContext as Putovanje;
                 if (putovanje != null)
                 {
-                    // Prebacivanje na novu stranicu sa prosleđenim ID-em
                     TravelPage travelPage = new TravelPage(putovanje.idPutovanja);
                     NavigationService.Navigate(travelPage);
                 }
@@ -118,7 +113,7 @@ namespace Putovanja.Pages
                     spSearchNaziv.Visibility = Visibility.Collapsed;
                     spSearchDestinacija.Visibility = Visibility.Collapsed;
                     spSearchDatum.Visibility = Visibility.Collapsed;
-                    UpdateListView(SvaPutovanja); // Prikazi sva putovanja
+                    UpdateListView(SvaPutovanja);
                 }
                 if (searchType == "Naziv")
                 {

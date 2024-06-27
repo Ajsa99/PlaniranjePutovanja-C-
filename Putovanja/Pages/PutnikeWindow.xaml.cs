@@ -40,7 +40,7 @@ namespace Putovanja.Pages
 
         private void Zatvori_Click(object sender, RoutedEventArgs e)
         {
-            Close(); // Zatvori prozor
+            Close();
         }
     }
 }

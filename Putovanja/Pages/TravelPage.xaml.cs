@@ -113,16 +113,21 @@ namespace Putovanja.Pages
             try
             {
                 string errorMessage;
-                bool success = DatabaseContext.InsertReservation(MainWindow.LoggedInUserId, idPutovanja, out errorMessage);
-                if (success)
+                MessageBoxResult result = MessageBox.Show("Da li ste sigurni da želite da rezervišete ovo putovanje?", "Potvrda rezervacije", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (result == MessageBoxResult.Yes)
                 {
-                    LoadTravelDetails(idPutovanja); // Osveži detalje putovanja nakon rezervacije
-                    MessageBox.Show("Uspešno rezervisano putovanje!");
-                    NavigationService.Navigate(new Reservations());
-                }
-                else
-                {
-                    MessageBox.Show("Greška prilikom rezervacije: " + errorMessage);
+                    bool success = DatabaseContext.InsertReservation(MainWindow.LoggedInUserId, idPutovanja, out errorMessage);
+                    if (success)
+                    {
+                        LoadTravelDetails(idPutovanja);
+                        MessageBox.Show("Uspešno rezervisano putovanje!");
+                        NavigationService.Navigate(new Reservations());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Greška prilikom rezervacije: " + errorMessage);
+                    }
                 }
             }
             catch (Exception ex)
@@ -130,5 +135,6 @@ namespace Putovanja.Pages
                 MessageBox.Show("Greška prilikom rezervacije: " + ex.Message);
             }
         }
+
     }
 }

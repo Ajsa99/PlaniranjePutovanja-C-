@@ -17,7 +17,7 @@ namespace Putovanja.Pages
         {
             InitializeComponent();
             Putovanja = new ObservableCollection<Putovanje>();
-            Destinacije = new ObservableCollection<Destinacija>(); // Inicijalizovali smo Destinacije
+            Destinacije = new ObservableCollection<Destinacija>();
             idPutovanja = Id;
             LoadTravelDetails(Id);
             LoadTermine(Id);
@@ -27,7 +27,6 @@ namespace Putovanja.Pages
         {
             try
             {
-                // Dohvatanje putovanja iz baze na osnovu IdPutovanja
                 using (var context = new PlaniranjePutovanjaEntities7())
                 {
                     var putovanje = context.Putovanje.FirstOrDefault(p => p.idPutovanja == idPutovanja);
@@ -39,7 +38,6 @@ namespace Putovanja.Pages
                     else
                     {
                         // Ako putovanje nije pronađeno, možete prikazati odgovarajuću poruku ili obaveštenje
-                        // Možete postaviti DataContext na null ili na objekat sa podrazumevanim vrednostima
                         DataContext = null;
                     }
                 }
@@ -57,12 +55,10 @@ namespace Putovanja.Pages
             {
                 using (var context = new PlaniranjePutovanjaEntities7())
                 {
-                    // Dohvati termine za određeno putovanje iz baze
                     Destinacije = new ObservableCollection<Destinacija>(
                         context.Destinacija.Where(d => d.idPutovanja == idPutovanja).ToList()
                     );
 
-                    // Ponovno postavljanje ItemsSource na DataGrid
                     dgTermini.ItemsSource = Destinacije;
                 }
             }
@@ -75,10 +71,7 @@ namespace Putovanja.Pages
 
         private void EditTravel_Click(object sender, RoutedEventArgs e)
         {
-            // Pretpostavka da postoji stranica za izmenu putovanja, nazvana EditTravelPage
-            // Možete proslediti idPutovanja ili trenutni objekat putovanja toj stranici
-
-            EditTravel editTravel = new EditTravel(idPutovanja); // Prosleđujemo id putovanja
+            EditTravel editTravel = new EditTravel(idPutovanja);
             NavigationService.Navigate(editTravel);
         }
 
@@ -114,7 +107,6 @@ namespace Putovanja.Pages
                 {
                     try
                     {
-                        // Brisanje destinacije iz baze
                         using (var context = new PlaniranjePutovanjaEntities7())
                         {
                             var terminToDelete = context.Destinacija.Find(destinacija.idDestinacija);
@@ -125,7 +117,6 @@ namespace Putovanja.Pages
                             }
                         }
 
-                        // Uklanjanje destinacije iz ObservableCollection
                         Destinacije.Remove(destinacija);
                         MessageBox.Show("Termin je uspešno obrisan.");
                     }
@@ -140,11 +131,9 @@ namespace Putovanja.Pages
         {
             try
             {
-                // Otvaranje novog prozora ili dijaloga za prikaz putnika koji su rezervisali
                 PutnikeWindow prikaziPutnikeWindow = new PutnikeWindow(idPutovanja);
                 prikaziPutnikeWindow.ShowDialog(); // Prikaz kao modalni dijalog
 
-                // Opciono: reagovanje na promene nakon zatvaranja prozora (ako je potrebno)
             }
             catch (Exception ex)
             {

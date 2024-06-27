@@ -113,7 +113,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtNameTravel.Text) && txtNameTravel.Text.Length > 0)
             {
                 textNameTravel.Visibility = Visibility.Collapsed;
-                errorNameTravel.Text = string.Empty; // Ukloni grešku
+                errorNameTravel.Text = string.Empty;
             }
             else
             {
@@ -131,7 +131,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtDestinationsTravel.Text) && txtDestinationsTravel.Text.Length > 0)
             {
                 textDestinationsTravel.Visibility = Visibility.Collapsed;
-                errorDestinationsTravel.Text = string.Empty; // Ukloni grešku
+                errorDestinationsTravel.Text = string.Empty;
             }
             else
             {
@@ -149,7 +149,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtHotelNameTravel.Text) && txtHotelNameTravel.Text.Length > 0)
             {
                 textHotelNameTravel.Visibility = Visibility.Collapsed;
-                errorHotelNameTravel.Text = string.Empty; // Ukloni grešku
+                errorHotelNameTravel.Text = string.Empty;
             }
             else
             {
@@ -167,7 +167,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtDescriptionTravel.Text) && txtDescriptionTravel.Text.Length > 0)
             {
                 textDescriptionTravel.Visibility = Visibility.Collapsed;
-                errorDescriptionTravel.Text = string.Empty; // Ukloni grešku
+                errorDescriptionTravel.Text = string.Empty;
             }
             else
             {
@@ -185,7 +185,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtNumberTravel.Text) && txtNumberTravel.Text.Length > 0)
             {
                 textNumberTravel.Visibility = Visibility.Collapsed;
-                errorNumberTravel.Text = string.Empty; // Clear error message
+                errorNumberTravel.Text = string.Empty;
             }
             else
             {
@@ -203,7 +203,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtPriceTravel.Text) && txtPriceTravel.Text.Length > 0)
             {
                 textPriceTravel.Visibility = Visibility.Collapsed;
-                errorPriceTravel.Text = string.Empty; // Ukloni grešku
+                errorPriceTravel.Text = string.Empty;
             }
             else
             {
@@ -221,7 +221,6 @@ namespace Putovanja.Pages
                 if (TimeSpan.TryParse((string)TimeFrom.SelectedItem, out selectedTime))
                 {
                     // Postavljanje izabranog vremena
-                    // Možete ga dodatno upotrebiti prema potrebi
                 }
             }
         }
@@ -236,7 +235,6 @@ namespace Putovanja.Pages
                 if (TimeSpan.TryParse((string)TimeTo.SelectedItem, out selectedTime))
                 {
                     // Postavljanje izabranog vremena
-                    // Možete ga dodatno upotrebiti prema potrebi
                 }
             }
         }
@@ -244,7 +242,6 @@ namespace Putovanja.Pages
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
 
-            // Validacija svih polja pre upisa u bazu
             SetErrorMessages();
 
             // Provera da li postoje error poruke
@@ -260,7 +257,6 @@ namespace Putovanja.Pages
                 string.IsNullOrEmpty(errorPriceTravel.Text) &&
                 string.IsNullOrEmpty(errorType.Text))
             {
-                // Kreiranje instance Putovanje
                 Putovanje putovanje = new Putovanje
                 {
                     IdAgencija = MainWindow.LoggedInUserId,
@@ -313,7 +309,6 @@ namespace Putovanja.Pages
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
-            // Clear all fields and error messages
             txtNameTravel.Text = string.Empty;
             txtDestinationsTravel.Text = string.Empty;
             txtHotelNameTravel.Text = string.Empty;
@@ -326,7 +321,6 @@ namespace Putovanja.Pages
             TimeTo.SelectedItem = null;
             cmbType.SelectedItem = null;
 
-            // Clear all error messages
             errorNameTravel.Text = string.Empty;
             errorDestinationsTravel.Text = string.Empty;
             errorHotelNameTravel.Text = string.Empty;
@@ -342,7 +336,6 @@ namespace Putovanja.Pages
 
         private void SetErrorMessages()
         {
-            // Validate image selection
             if (imgTravel.Source == null || !(imgTravel.Source is BitmapImage))
             {
                 MessageBox.Show("Morate izabrati sliku putovanja!", "Greška", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -360,13 +353,11 @@ namespace Putovanja.Pages
             errorType.Text = cmbType.SelectedItem == null ? "Status je obavezno polje!" : string.Empty;
 
 
-            // Validate date and time consistency
             if (DateFrom.SelectedDate.HasValue && DateTo.SelectedDate.HasValue && DateFrom.SelectedDate > DateTo.SelectedDate)
             {
                 errorDateFromTravel.Text = "Datum polaska mora biti pre datuma povratka!";
             }
 
-            // Validate price format
             if (string.IsNullOrEmpty(txtPriceTravel.Text))
             {
                 errorPriceTravel.Text = "Cena je obavezno polje!";
@@ -380,7 +371,6 @@ namespace Putovanja.Pages
                 errorPriceTravel.Text = string.Empty;
             }
 
-            // Validate number format
             if (string.IsNullOrEmpty(txtNumberTravel.Text))
             {
                 errorNumberTravel.Text = "Broj putnika je obavezno polje!";

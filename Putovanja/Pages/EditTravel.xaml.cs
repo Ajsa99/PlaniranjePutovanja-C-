@@ -69,7 +69,6 @@ namespace Putovanja.Pages
                 TextBox textBox = sender as TextBox;
                 if (textBox != null)
                 {
-                    // Update Status property in your data model
                     if (DataContext is Putovanje putovanje)
                     {
                         putovanje.Status = textBox.Text;

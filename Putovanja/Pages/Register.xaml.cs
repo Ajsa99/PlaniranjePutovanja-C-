@@ -17,8 +17,8 @@ namespace Putovanja.Pages
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            cmbType.SelectedIndex = 0; // Postavi selektovanu stavku na "Korisnik"
-            cmbType_SelectionChanged(null, null); // Ručno pozovi SelectionChanged događaj kako bi se prikazala odgovarajuća forma
+            cmbType.SelectedIndex = 0;
+            cmbType_SelectionChanged(null, null);
         }
 
 
@@ -32,7 +32,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtEmail.Text) && txtEmail.Text.Length > 0)
             {
                 textEmail.Visibility = Visibility.Collapsed;
-                errorEmail.Text = string.Empty; // Ukloni grešku
+                errorEmail.Text = string.Empty;
             }
             else
             {
@@ -50,7 +50,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(textAgencyName.Text) && textAgencyName.Text.Length > 0)
             {
                 textAgencyName.Visibility = Visibility.Collapsed;
-                errorAgencyName.Text = string.Empty; // Ukloni grešku
+                errorAgencyName.Text = string.Empty;
             }
             else
             {
@@ -68,7 +68,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtPassword.Password) && txtPassword.Password.Length > 0)
             {
                 textPassword.Visibility = Visibility.Collapsed;
-                errorPassword.Text = string.Empty; // Ukloni grešku
+                errorPassword.Text = string.Empty;
             }
             else
             {
@@ -81,7 +81,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtName.Text) && txtName.Text.Length > 0)
             {
                 textName.Visibility = Visibility.Collapsed;
-                errorName.Text = string.Empty; // Ukloni grešku
+                errorName.Text = string.Empty;
             }
             else
             {
@@ -99,7 +99,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtSurname.Text) && txtSurname.Text.Length > 0)
             {
                 textSurname.Visibility = Visibility.Collapsed;
-                errorSurname.Text = string.Empty; // Ukloni grešku
+                errorSurname.Text = string.Empty;
             }
             else
             {
@@ -122,7 +122,7 @@ namespace Putovanja.Pages
             if (!string.IsNullOrEmpty(txtPassword1.Password) && txtPassword1.Password.Length > 0)
             {
                 textPassword1.Visibility = Visibility.Collapsed;
-                errorPassword1.Text = string.Empty; // Ukloni grešku
+                errorPassword1.Text = string.Empty;
             }
             else
             {
@@ -132,10 +132,7 @@ namespace Putovanja.Pages
 
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if (e.ChangedButton == MouseButton.Left)
-            {
-                // this.DragMove();
-            }
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -175,7 +172,6 @@ namespace Putovanja.Pages
                 }
             }
 
-            // Ostatak validacije polja
 
             // Ako je sve validno
             if (isValid)

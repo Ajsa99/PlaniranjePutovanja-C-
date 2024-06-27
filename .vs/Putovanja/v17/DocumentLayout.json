@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|c:\\users\\ajsa\\desktop\\c# projekat\\putovanja\\putovanja\\pages\\travelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\profilagency.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\profilagency.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\profilagency.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\profilagency.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\putovanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\putovanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|c:\\users\\ajsa\\desktop\\c# projekat\\putovanja\\putovanja\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\reservations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\reservations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\reservations.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +27,16 @@
       "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\putnikewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\profilagency.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\profilagency.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\edittravel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\edittravel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\edittravel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\edittravel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\dodajterminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,6 +49,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\destinations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\destinations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\profilagency.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\profilagency.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\putovanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\putovanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\travelform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\travelform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\reservations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\reservations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\edittravel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|solutionrelative:putovanja\\pages\\edittravel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29DBDD36-56DD-461F-9E21-A5F665071368}|Putovanja\\Putovanja.csproj|C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\putovanja\\pages\\putnikewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -142,11 +142,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Putovanje.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Putovanje.cs",
               "RelativeDocumentMoniker": "Putovanja\\Putovanje.cs",
@@ -158,25 +158,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "Register.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Register.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\Register.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Register.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\Register.xaml.cs",
-              "ViewState": "AQIAAPkAAAAAAAAAAAAYwBEAAABCAAAA",
+              "ViewState": "AQIAANkAAAAAAAAAAAAQwK4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T14:18:19.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "PutnikeWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\PutnikeWindow.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\PutnikeWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\PutnikeWindow.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\PutnikeWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAkwC4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T13:57:14.572Z"
             },
@@ -193,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\MainWindow.xaml.cs",
@@ -201,8 +201,7 @@
               "RelativeToolTip": "Putovanja\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T12:33:33.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T12:33:33.389Z"
             },
             {
               "$type": "Document",
@@ -241,13 +240,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
               "Title": "DodajTerminWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\DodajTerminWindow.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\DodajTerminWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\DodajTerminWindow.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\DodajTerminWindow.xaml.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAYwAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T23:58:58.934Z"
             },
@@ -264,19 +263,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "EditTravel.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\EditTravel.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\EditTravel.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\EditTravel.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\EditTravel.xaml.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAYwFUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T22:36:41.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "EditTravel.xaml",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\EditTravel.xaml",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\EditTravel.xaml",
@@ -322,31 +321,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "TravelForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelForm.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\TravelForm.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelForm.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\TravelForm.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOoAAAAmAAAA",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAowHUBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T13:41:47.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 10,
               "Title": "Destinations.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Destinations.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\Destinations.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Destinations.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\Destinations.xaml.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAcwCUAAAAtAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAIwHMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T13:34:34.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 11,
               "Title": "Destinations.xaml",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Destinations.xaml",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\Destinations.xaml",
@@ -357,64 +356,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "Putovanja\\DatabaseContext.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\DatabaseContext.cs",
               "RelativeToolTip": "Putovanja\\DatabaseContext.cs",
-              "ViewState": "AQIAALsAAAAAAAAAAAAzwMgAAAARAAAA",
+              "ViewState": "AQIAALwAAAAAAAAAAAAAwNMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:30:59.966Z"
+              "WhenOpened": "2024-06-26T13:30:59.966Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "TravelPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelPage.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\TravelPage.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelPage.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\TravelPage.xaml.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAvwCAAAAA6AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwIkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T13:09:49.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "ProfilAgency.xaml",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\ProfilAgency.xaml",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\ProfilAgency.xaml",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\ProfilAgency.xaml",
               "RelativeToolTip": "Putovanja\\Pages\\ProfilAgency.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-26T12:27:46.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T12:27:46.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TravelPage1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelPage1.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\TravelPage1.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelPage1.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\TravelPage1.xaml.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAmwFMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T12:05:37.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T12:05:37.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "TravelPage1.xaml",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelPage1.xaml",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\TravelPage1.xaml",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelPage1.xaml",
               "RelativeToolTip": "Putovanja\\Pages\\TravelPage1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-26T12:04:54.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T12:04:54.595Z"
             },
             {
               "$type": "Document",
@@ -440,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Reservations.xaml",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Reservations.xaml",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\Reservations.xaml",
@@ -463,19 +460,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "Reservations.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Reservations.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\Reservations.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Reservations.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\Reservations.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T21:37:33.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "TravelPage.xaml",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelPage.xaml",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\TravelPage.xaml",
@@ -486,32 +483,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Login.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\Login.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\Login.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\Login.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGUAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T16:43:09.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ProfilAgency.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\ProfilAgency.xaml.cs",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\ProfilAgency.xaml.cs",
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\ProfilAgency.xaml.cs",
               "RelativeToolTip": "Putovanja\\Pages\\ProfilAgency.xaml.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwEMAAAAtAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:31:25.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T11:31:25.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "TravelForm.xaml",
               "DocumentMoniker": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\Pages\\TravelForm.xaml",
               "RelativeDocumentMoniker": "Putovanja\\Pages\\TravelForm.xaml",
@@ -529,8 +525,7 @@
               "ToolTip": "C:\\Users\\Ajsa\\Desktop\\c# projekat\\Putovanja\\Putovanja\\App.xaml",
               "RelativeToolTip": "Putovanja\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-06T13:05:09.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:05:09.748Z"
             }
           ]
         }

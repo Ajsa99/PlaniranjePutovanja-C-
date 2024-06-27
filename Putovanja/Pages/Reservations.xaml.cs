@@ -24,7 +24,6 @@ namespace Putovanja.Pages
 
                 if (reservations != null)
                 {
-                    // Bind the reservations to ListView
                     ReservationsListView.ItemsSource = reservations;
                 }
                 else
@@ -43,10 +42,8 @@ namespace Putovanja.Pages
             Button button = sender as Button;
             if (button != null)
             {
-                // Retrieve IdPutovanja from DataContext
                 var idPutovanja = (int)button.DataContext.GetType().GetProperty("IdPutovanja").GetValue(button.DataContext, null);
 
-                // Navigate to TravelPage with the retrieved Id
                 TravelPage travelPage = new TravelPage(idPutovanja);
                 NavigationService.Navigate(travelPage);
             }
