@@ -41,27 +41,27 @@ namespace Putovanja.Pages
             }
         }
 
-        //private void DeletePutovanje(object sender, RoutedEventArgs e)
-        //{
-        //    Button button = sender as Button;
-        //    if (button != null)
-        //    {
-        //        Putovanje putovanje = button.DataContext as Putovanje;
-        //        if (putovanje != null)
-        //        {
-        //            try
-        //            {
-        //                DatabaseContext.DeletePutovanje(putovanje.idPutovanja); // Brisanje putovanja iz baze
-        //                Putovanja.Remove(putovanje); // Uklanjanje putovanja iz liste na UI
-        //                MessageBox.Show("Putovanje je uspešno obrisano.");
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                MessageBox.Show("Greška prilikom brisanja putovanja: " + ex.Message);
-        //            }
-        //        }
-        //    }
-        //}
+        private void DeletePutovanje(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            if (button != null)
+            {
+                Putovanje putovanje = button.DataContext as Putovanje;
+                if (putovanje != null)
+                {
+                    try
+                    {
+                        DatabaseContext.DeletePutovanje(putovanje.idPutovanja); // Brisanje putovanja iz baze
+                        Putovanja.Remove(putovanje); // Uklanjanje putovanja iz liste na UI
+                        MessageBox.Show("Putovanje je uspešno obrisano.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Greška prilikom brisanja putovanja: " + ex.Message);
+                    }
+                }
+            }
+        }
 
         private void ViewDestination(object sender, RoutedEventArgs e)
         {

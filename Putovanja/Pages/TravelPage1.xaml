@@ -96,9 +96,8 @@
                     </Border>
 
 
-                    <!-- Dugmad za izmenu i brisanje -->
+                    <!-- Dugmad za brisanje -->
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                        <Button Content="Izbriši" Click="DeleteTravel_Click" Margin="0,10,30,0" Style="{StaticResource buttonView1}"/>
                         <Button Content="Izmeni" Click="EditTravel_Click" Margin="0,10,10,0" Style="{StaticResource buttonView}"/>
                     </StackPanel>
                 </StackPanel>

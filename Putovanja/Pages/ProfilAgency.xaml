@@ -48,7 +48,7 @@
                                             <TextBlock Text="{Binding DatumPovratka, StringFormat='dd.MM.yyyy'}" Foreground="DarkGray"/>
                                         </StackPanel>
                                         <!--Dodato dugme za brisanje-->
-                                        <!--<Button Content="Obriši" Click="DeletePutovanje" HorizontalAlignment="Left" Style="{StaticResource buttomDelete}"/>-->
+                                        <Button Content="Obriši" Click="DeletePutovanje" HorizontalAlignment="Left" Style="{StaticResource buttomDelete}"/>
                                     </StackPanel>
 
 

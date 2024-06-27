@@ -82,23 +82,6 @@ namespace Putovanja.Pages
             NavigationService.Navigate(editTravel);
         }
 
-        private void DeleteTravel_Click(object sender, RoutedEventArgs e)
-        {
-            Button button = sender as Button;
-
-            Putovanje putovanje = button.DataContext as Putovanje;
-
-                if (MessageBox.Show("Da li ste sigurni da želite da obrišete ovo putovanje?", "Potvrda brisanja", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
-                {
-                    DatabaseContext.DeletePutovanje(putovanje.idPutovanja); // Delete the travel from the database
-
-                    Putovanja.Remove(putovanje); // Remove from ObservableCollection if necessary
-                    MessageBox.Show("Putovanje je uspešno obrisano.");
-                }
-
-        }
-
-
         private void DodajTermin_Click(object sender, RoutedEventArgs e)
         {
             try
