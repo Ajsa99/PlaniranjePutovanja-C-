@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PlaniranjePutovanjaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Agencija">
+    <Key>
+      <PropertyRef Name="idAgencija" />
+    </Key>
+    <Property Name="idAgencija" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lozinka" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Destinacija">
+    <Key>
+      <PropertyRef Name="idDestinacija" />
+    </Key>
+    <Property Name="idDestinacija" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idPutovanja" Type="int" />
+    <Property Name="Naziv" Type="varchar" MaxLength="100" />
+    <Property Name="Opis" Type="text" />
+    <Property Name="DatumPolaska" Type="date" />
+    <Property Name="DatumPovratka" Type="date" />
+    <Property Name="VremeOd" Type="nvarchar" MaxLength="10" />
+    <Property Name="VremeDo" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Korisnik">
+    <Key>
+      <PropertyRef Name="idKorisnik" />
+    </Key>
+    <Property Name="idKorisnik" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Prezime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lozinka" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Putovanje">
+    <Key>
+      <PropertyRef Name="idPutovanja" />
+    </Key>
+    <Property Name="idPutovanja" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdAgencija" Type="int" />
+    <Property Name="Naziv" Type="varchar" MaxLength="100" />
+    <Property Name="Opis" Type="text" />
+    <Property Name="DatumPolaska" Type="date" />
+    <Property Name="DatumPovratka" Type="date" />
+    <Property Name="BrojPutnika" Type="int" />
+    <Property Name="Cena" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+    <Property Name="Destinacija" Type="nvarchar" MaxLength="255" />
+    <Property Name="Hotel" Type="nvarchar" MaxLength="255" />
+    <Property Name="VremeOd" Type="nvarchar" MaxLength="5" />
+    <Property Name="VremeDo" Type="nvarchar" MaxLength="5" />
+    <Property Name="Slika" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Rezervacija">
+    <Key>
+      <PropertyRef Name="idRezervacija" />
+    </Key>
+    <Property Name="idRezervacija" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idKorisnik" Type="int" />
+    <Property Name="idPutovanja" Type="int" />
+  </EntityType>
+  <Association Name="FK__Destinaci__idPut__49C3F6B7">
+    <End Role="Putovanje" Type="Self.Putovanje" Multiplicity="0..1" />
+    <End Role="Destinacija" Type="Self.Destinacija" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Putovanje">
+        <PropertyRef Name="idPutovanja" />
+      </Principal>
+      <Dependent Role="Destinacija">
+        <PropertyRef Name="idPutovanja" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Putovanje__IdAge__46E78A0C">
+    <End Role="Agencija" Type="Self.Agencija" Multiplicity="0..1" />
+    <End Role="Putovanje" Type="Self.Putovanje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agencija">
+        <PropertyRef Name="idAgencija" />
+      </Principal>
+      <Dependent Role="Putovanje">
+        <PropertyRef Name="IdAgencija" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Rezervaci__idKor__4CA06362">
+    <End Role="Korisnik" Type="Self.Korisnik" Multiplicity="0..1" />
+    <End Role="Rezervacija" Type="Self.Rezervacija" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Korisnik">
+        <PropertyRef Name="idKorisnik" />
+      </Principal>
+      <Dependent Role="Rezervacija">
+        <PropertyRef Name="idKorisnik" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Rezervaci__idPut__4D94879B">
+    <End Role="Putovanje" Type="Self.Putovanje" Multiplicity="0..1" />
+    <End Role="Rezervacija" Type="Self.Rezervacija" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Putovanje">
+        <PropertyRef Name="idPutovanja" />
+      </Principal>
+      <Dependent Role="Rezervacija">
+        <PropertyRef Name="idPutovanja" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PlaniranjePutovanjaModelStoreContainer">
+    <EntitySet Name="Agencija" EntityType="Self.Agencija" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Destinacija" EntityType="Self.Destinacija" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Korisnik" EntityType="Self.Korisnik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Putovanje" EntityType="Self.Putovanje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rezervacija" EntityType="Self.Rezervacija" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Destinaci__idPut__49C3F6B7" Association="Self.FK__Destinaci__idPut__49C3F6B7">
+      <End Role="Putovanje" EntitySet="Putovanje" />
+      <End Role="Destinacija" EntitySet="Destinacija" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Putovanje__IdAge__46E78A0C" Association="Self.FK__Putovanje__IdAge__46E78A0C">
+      <End Role="Agencija" EntitySet="Agencija" />
+      <End Role="Putovanje" EntitySet="Putovanje" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Rezervaci__idKor__4CA06362" Association="Self.FK__Rezervaci__idKor__4CA06362">
+      <End Role="Korisnik" EntitySet="Korisnik" />
+      <End Role="Rezervacija" EntitySet="Rezervacija" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Rezervaci__idPut__4D94879B" Association="Self.FK__Rezervaci__idPut__4D94879B">
+      <End Role="Putovanje" EntitySet="Putovanje" />
+      <End Role="Rezervacija" EntitySet="Rezervacija" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
