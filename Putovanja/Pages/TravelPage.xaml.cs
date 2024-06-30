@@ -26,11 +26,11 @@ namespace Putovanja.Pages
                 try
                 {
                     string errorMessage;
-                    var putovanje = DatabaseContext.GetTravelDetails(idPutovanja, out errorMessage);
+                    var putovanje = DatabaseManager.GetTravelDetails(idPutovanja, out errorMessage);
 
                     if (putovanje != null)
                     {
-                        bool isReserved = DatabaseContext.CheckReservation(MainWindow.LoggedInUserId, idPutovanja);
+                        bool isReserved = DatabaseManager.CheckReservation(MainWindow.LoggedInUserId, idPutovanja);
 
                         DataContext = new { Travel = putovanje };
 
@@ -68,7 +68,7 @@ namespace Putovanja.Pages
             try
             {
                 string errorMessage;
-                var putovanje = DatabaseContext.GetTravelDetails(idPutovanja, out errorMessage);
+                var putovanje = DatabaseManager.GetTravelDetails(idPutovanja, out errorMessage);
 
                 if (putovanje != null)
                 {
@@ -90,7 +90,7 @@ namespace Putovanja.Pages
             try
             {
                 string errorMessage;
-                var destinacije = DatabaseContext.GetDestinationsForTravel(idPutovanja, out errorMessage);
+                var destinacije = DatabaseManager.GetDestinationsForTravel(idPutovanja, out errorMessage);
 
                 if (destinacije != null)
                 {
@@ -117,7 +117,7 @@ namespace Putovanja.Pages
 
                 if (result == MessageBoxResult.Yes)
                 {
-                    bool success = DatabaseContext.InsertReservation(MainWindow.LoggedInUserId, idPutovanja, out errorMessage);
+                    bool success = DatabaseManager.InsertReservation(MainWindow.LoggedInUserId, idPutovanja, out errorMessage);
                     if (success)
                     {
                         LoadTravelDetails(idPutovanja);

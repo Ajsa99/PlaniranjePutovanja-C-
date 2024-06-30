@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Data.Entity;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,7 +24,7 @@ namespace Putovanja.Pages
         {
             try
             {
-                var putovanja = DatabaseContext.GetPutovanjaId(MainWindow.LoggedInUserId).ToList();
+                var putovanja = DatabaseManager.GetPutovanjaId(MainWindow.LoggedInUserId).ToList();
 
                 putovanja.Reverse();
 
@@ -51,7 +52,31 @@ namespace Putovanja.Pages
                         MessageBoxResult result = MessageBox.Show("Da li ste sigurni da želite da obrišete ovo putovanje?", "Potvrda brisanja", MessageBoxButton.YesNo, MessageBoxImage.Question);
                         if (result == MessageBoxResult.Yes)
                         {
-                            DatabaseContext.DeletePutovanje(putovanje.idPutovanja);
+                            using (var context = new PlaniranjePutovanjaEntities7())
+                            {
+                                // Učitaj putovanje sa povezanim entitetima koristeći query syntax
+                                var putovanjeToDelete = (from p in context.Putovanje
+                                                         where p.idPutovanja == putovanje.idPutovanja
+                                                         select p)
+                                                        .Include(p => p.Destinacija1)
+                                                        .Include(p => p.Rezervacija)
+                                                        .SingleOrDefault();
+
+                                if (putovanjeToDelete != null)
+                                {
+                                    // Prvo obriši povezane destinacije
+                                    context.Destinacija.RemoveRange(putovanjeToDelete.Destinacija1);
+
+                                    // Zatim obriši povezane rezervacije
+                                    context.Rezervacija.RemoveRange(putovanjeToDelete.Rezervacija);
+
+                                    // Na kraju obriši putovanje
+                                    context.Putovanje.Remove(putovanjeToDelete);
+
+                                    context.SaveChanges();
+                                }
+                            }
+
                             Putovanja.Remove(putovanje);
                             MessageBox.Show("Putovanje je uspešno obrisano.");
                         }
@@ -63,6 +88,7 @@ namespace Putovanja.Pages
                 }
             }
         }
+
 
         private void ViewDestination(object sender, RoutedEventArgs e)
         {

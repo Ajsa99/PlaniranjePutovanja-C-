@@ -49,7 +49,7 @@ namespace Putovanja.Pages
 
                 // Upisivanje novog termina u bazu
                 string errorMessage;
-                bool success = DatabaseContext.InsertDestination(noviTermin, out errorMessage);
+                bool success = DatabaseManager.InsertDestination(noviTermin, out errorMessage);
 
                 if (success)
                 {

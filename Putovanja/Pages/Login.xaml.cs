@@ -89,7 +89,7 @@ namespace Putovanja.Pages
             if (isValid)
             {
                 // Provera logovanja korisnika
-                if (DatabaseContext.AuthenticateUser(email, password, out string userType, out int userId))
+                if (DatabaseManager.AuthenticateUser(email, password, out string userType, out int userId))
                 {
                     // Postavljanje tipa ulogovanog korisnika
                     MainWindow.LoggedInUserType = userType;

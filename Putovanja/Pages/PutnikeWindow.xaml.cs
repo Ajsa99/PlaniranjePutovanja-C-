@@ -20,7 +20,7 @@ namespace Putovanja.Pages
             try
             {
                 string errorMessage;
-                var putnici = DatabaseContext.GetPutniciByPutovanjeId(idPutovanja, out errorMessage);
+                var putnici = DatabaseManager.GetPutniciByPutovanjeId(idPutovanja, out errorMessage);
 
                 if (putnici != null)
                 {

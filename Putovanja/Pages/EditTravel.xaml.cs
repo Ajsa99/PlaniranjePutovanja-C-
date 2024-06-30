@@ -20,7 +20,7 @@ namespace Putovanja.Pages
         {
             try
             {
-                originalPutovanje = DatabaseContext.GetPutovanjeById(idPutovanja);
+                originalPutovanje = DatabaseManager.GetPutovanjeById(idPutovanja);
                 if (originalPutovanje != null)
                 {
                     DataContext = originalPutovanje;
@@ -40,7 +40,7 @@ namespace Putovanja.Pages
         {
             try
             {
-                bool success = DatabaseContext.UpdatePutovanje(originalPutovanje, out string errorMessage);
+                bool success = DatabaseManager.UpdatePutovanje(originalPutovanje, out string errorMessage);
                 if (success)
                 {
                     MessageBox.Show("Podaci o putovanju su uspešno izmenjeni.");

@@ -4,7 +4,7 @@ using System;
 
 namespace Putovanja
 {
-    public static class DatabaseContext
+    public static class DatabaseManager
     {
         public static bool RegisterMember(string name, string surname, string email, string password, out string errorMessage)
         {

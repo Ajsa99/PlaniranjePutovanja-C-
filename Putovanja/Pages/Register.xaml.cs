@@ -179,7 +179,7 @@ namespace Putovanja.Pages
                 string selectedType = ((ComboBoxItem)cmbType.SelectedItem).Content.ToString();
                 if (selectedType == "Korisnik")
                 {
-                    if (DatabaseContext.RegisterMember(txtName.Text, txtSurname.Text, txtEmail.Text, txtPassword.Password, out string errorMessage))
+                    if (DatabaseManager.RegisterMember(txtName.Text, txtSurname.Text, txtEmail.Text, txtPassword.Password, out string errorMessage))
                     {
                         MessageBox.Show("Uspešno ste se registrovali kao korisnik.", "Registracija uspešna", MessageBoxButton.OK, MessageBoxImage.Information, MessageBoxResult.OK, MessageBoxOptions.RightAlign);
                         this.NavigationService.Navigate(new Login());
@@ -191,7 +191,7 @@ namespace Putovanja.Pages
                 }
                 else if (selectedType == "Agencija")
                 {
-                    if (DatabaseContext.RegisterAgency(txtAgencyName.Text, txtEmail.Text, txtPassword.Password, out string errorMessage))
+                    if (DatabaseManager.RegisterAgency(txtAgencyName.Text, txtEmail.Text, txtPassword.Password, out string errorMessage))
                     {
                         MessageBox.Show("Uspešno ste registrovali agenciju.", "Registracija uspešna", MessageBoxButton.OK, MessageBoxImage.Information, MessageBoxResult.OK, MessageBoxOptions.RightAlign);
                         this.NavigationService.Navigate(new Login());

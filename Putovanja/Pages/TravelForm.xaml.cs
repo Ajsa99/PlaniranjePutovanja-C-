@@ -293,7 +293,7 @@ namespace Putovanja.Pages
 
                 // Poziv metode za upis putovanja u bazu
                 string errorMessage;
-                bool success = DatabaseContext.InsertTravel(putovanje, out errorMessage);
+                bool success = DatabaseManager.InsertTravel(putovanje, out errorMessage);
 
                 if (success)
                 {

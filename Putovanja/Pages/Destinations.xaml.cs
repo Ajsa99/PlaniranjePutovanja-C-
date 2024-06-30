@@ -27,7 +27,7 @@ namespace Putovanja.Pages
         {
             try
             {
-                var putovanja = DatabaseContext.GetPutovanja().ToList();
+                var putovanja = DatabaseManager.GetPutovanja().ToList();
 
                 putovanja.Reverse();
 

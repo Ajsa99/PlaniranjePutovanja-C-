@@ -20,7 +20,7 @@ namespace Putovanja.Pages
             try
             {
                 string errorMessage;
-                var reservations = DatabaseContext.GetReservationsForUser(loggedInUserId, out errorMessage);
+                var reservations = DatabaseManager.GetReservationsForUser(loggedInUserId, out errorMessage);
 
                 if (reservations != null)
                 {
